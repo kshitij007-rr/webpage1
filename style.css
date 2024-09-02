@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    background-color: brown;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600px;
+    width: fit-content;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    border: 5px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    position: fixed;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    
+}
+.unlist{display: flex;
+justify-items: center;
+gap: 50px;
+font-weight: 500;
+color: rgb(201, 239, 10);
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    color: black;
+}
+ul{
+    position: fixed;
+    left: 600px;
+    top: 10px;
+}
+.button1{
+    position: fixed;
+    right: 10px;
+    top: 5px;
+}
+.text{
+    font-size: 102px;
+    font-weight: 2000;
+    color: yellow;
+    width: auto;
+    height: auto;
+    padding: 100px;
+position: fixed;
+left: 350px;
+bottom:50px ;
+}
+.button2{
+    position: fixed;
+    bottom: 100px;
+    left:700px ;
+    font-weight: 900;
+    width: fit-content;
+}
+footer{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}
